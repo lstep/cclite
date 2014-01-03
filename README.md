@@ -21,11 +21,20 @@ Installation
 ------------
 Executables are available for Windows and OSX
 
-For manual installation (Linux):
+For generic manual installation (Linux):
 
 1. Download the latest version of [Love2D][link-to-love]
 
 2. Run the .love file available
+
+
+For installation on Ubuntu Linux:
+
+1. `sudo apt-add-repository ppa:bartbes/love-stable`
+
+2. `sudo apt-get update`
+
+3. `apt-get install love`
 
 Building from source
 ------------
@@ -38,6 +47,15 @@ Windows:
 3. Place the latest version of love for OSX, (love.app) into the `love-dist/macosx/` folder
 
 4. Run the `build_src.bat` script.
+
+Linux:
+
+1. If you don't yet have Love2D, install it first
+
+2. Go into `src/`
+
+3. Run `zip -r ../cclite.love *`
+
 
 FAQ
 ------------
